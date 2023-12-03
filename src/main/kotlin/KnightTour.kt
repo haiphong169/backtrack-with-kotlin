@@ -38,7 +38,7 @@ class KnightTour {
             xMove: List<Int>,
             yMove: List<Int>
         ): Boolean {
-            var nextX: Int;
+            var nextX: Int
             var nextY: Int
             if (movei == N * N) return true
             for (i in 0..<N) {
